@@ -1,0 +1,3 @@
+C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir
+C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
