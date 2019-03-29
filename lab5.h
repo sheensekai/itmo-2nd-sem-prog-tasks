@@ -7,9 +7,9 @@
 
 class IGeoFig {
 public:
-    virtual double Square() = 0;
+    virtual double Square() const = 0;
 
-    virtual double Perimeter() = 0;
+    virtual double Perimeter() const = 0;
 };
 
 class CVector2D {
@@ -19,13 +19,25 @@ public:
 
 class IPhysObject {
 public:
-    virtual double Mass() = 0;
+    virtual double Mass() const = 0;
 
-    virtual CVector2D Position() = 0;
+    virtual void SetMass(double val) = 0;
+
+    virtual CVector2D Position() const = 0;
+
+    virtual void SetPosition(const CVector2D &vect) = 0;
 
     virtual bool operator==(const IPhysObject &ob) const = 0;
 
+    virtual bool operator!=(const IPhysObject &ob) const = 0;
+
     virtual bool operator<(const IPhysObject &ob) const = 0;
+
+    virtual bool operator>(const IPhysObject &ob) const = 0;
+
+    virtual bool operator<=(const IPhysObject &ob) const = 0;
+
+    virtual bool operator>=(const IPhysObject &ob) const = 0;
 };
 
 class IPrintable {
@@ -48,23 +60,43 @@ public:
 
 class CCircle : IBaseCObject, IGeoFig, IPrintable, IDialogInitiable, IPhysObject {
 public:
-    CCircle(double rad, CVector2D const &centre);
-
-    CCircle();
-
-    const char *ClassName() const override;
+    explicit CCircle(double rad = 0.0, CVector2D const &centre = {0.0, 0.0});
 
     size_t Size() const override;
+
+    const char *ClassName() const override;
 
     void SetClassName(std::string name) override;
 
     void InitFromDialog() override;
 
+    void SetRad(double rad);
+
+    double Mass() const override;
+
+    void SetMass(double val) override;
+
+    CVector2D Position() const override;
+
+    void SetPosition(const CVector2D &vect) override;
+
     void Draw() const override;
 
-    double Square() override;
+    double Square() const override;
 
-    double Perimeter() override;
+    double Perimeter() const override;
+
+    bool operator==(const IPhysObject &ob) const override;
+
+    bool operator!=(const IPhysObject &ob) const override;
+
+    bool operator<(const IPhysObject &ob) const override;
+
+    bool operator>(const IPhysObject &ob) const override;
+
+    bool operator<=(const IPhysObject &ob) const override;
+
+    bool operator>=(const IPhysObject &ob) const override;
 
 
 private:
@@ -73,6 +105,35 @@ private:
 
     double rad_;
     CVector2D centre_;
+    double mass_;
+};
+
+class CCircleSystem {
+public:
+    CCircleSystem() :
+            size_(10),
+            head_(0),
+            arr_(new CCircle[10]) {}
+
+    void AddCircle(double rad, CVector2D const &centre, double mass = 0) {
+        if (head_ >= size_ * 0.7) {
+            CCircle * tmp = new CCircle[floor(size_ * 1.)];
+            for (int i = 0; i < size_; ++i)
+                tmp[i] = arr_[i];
+            delete[] arr_;
+        }
+
+        arr_[head_].SetPosition(centre);
+        arr_[head_].SetRad(rad);
+        arr_[head_].SetMass(mass);
+
+        ++head_;
+    }
+
+private:
+    size_t size_;
+    int head_;
+    CCircle * arr_;
 };
 
 #endif //PROGTASKSCPP_LAB5_H
