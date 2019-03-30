@@ -14,6 +14,14 @@ public:
 
 class CVector2D {
 public:
+    CVector2D &operator+=(CVector2D const &other);
+
+    CVector2D &operator*=(double val);
+
+    CVector2D &operator/=(double val);
+
+    CVector2D &operator=(CVector2D const &other) = default;
+
     double x, y;
 };
 
@@ -60,7 +68,7 @@ public:
 
 class CCircle : IBaseCObject, IGeoFig, IPrintable, IDialogInitiable, IPhysObject {
 public:
-    explicit CCircle(double rad = 0.0, CVector2D const &centre = {0.0, 0.0});
+    explicit CCircle(double rad = 0.0, CVector2D const &centre = {0.0, 0.0}, double mass = 0);
 
     size_t Size() const override;
 
@@ -85,6 +93,8 @@ public:
     double Square() const override;
 
     double Perimeter() const override;
+
+    CCircle &operator=(CCircle const &other) = default;
 
     bool operator==(const IPhysObject &ob) const override;
 
@@ -115,25 +125,31 @@ public:
             head_(0),
             arr_(new CCircle[10]) {}
 
-    void AddCircle(double rad, CVector2D const &centre, double mass = 0) {
-        if (head_ >= size_ * 0.7) {
-            CCircle * tmp = new CCircle[floor(size_ * 1.)];
-            for (int i = 0; i < size_; ++i)
-                tmp[i] = arr_[i];
-            delete[] arr_;
-        }
+    void AddCircle(double rad, CVector2D const &centre, double mass = 0);
 
-        arr_[head_].SetPosition(centre);
-        arr_[head_].SetRad(rad);
-        arr_[head_].SetMass(mass);
+    void ShowCircles();
 
-        ++head_;
-    }
+    double CiclesTotalSquare();
+
+    double CirclesTotalPerimeter();
+
+    double CirclesTotalMass();
+
+    CVector2D CirclesMassCentre();
+
+    size_t CircleTotalSize();
+
+    void CirclesMassSort();
 
 private:
+
+    void CirclesMergeSort(int first, int last);
+
+    void CirclesMerge(int first, int last, int middle);
+
     size_t size_;
     int head_;
-    CCircle * arr_;
+    CCircle *arr_;
 };
 
 #endif //PROGTASKSCPP_LAB5_H
