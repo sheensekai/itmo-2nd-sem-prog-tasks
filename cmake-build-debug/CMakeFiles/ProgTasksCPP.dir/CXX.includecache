@@ -6,21 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Zver/CLionProjects/ProgTasksCPP/lab6.h
-iostream
--
-cmath
--
+C:/Users/Zver/CLionProjects/ProgTasksCPP/lab5.cpp
+lab5.h
+C:/Users/Zver/CLionProjects/ProgTasksCPP/lab5.h
 
-C:/Users/Zver/CLionProjects/ProgTasksCPP/main.cpp
-iostream
+C:/Users/Zver/CLionProjects/ProgTasksCPP/lab5.h
+string
 -
 cmath
 -
-ctime
+iostream
 -
-lab6.h
-C:/Users/Zver/CLionProjects/ProgTasksCPP/lab6.h
-cstddef
+fstream
 -
 

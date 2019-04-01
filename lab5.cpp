@@ -123,7 +123,7 @@ bool CCircle::operator>=(const IPhysObject &ob) const {
 
 void CCircleSystem::AddCircle(double rad, CVector2D const &centre, double mass) {
     if (head_ >= size_ * 0.7) {
-        CCircle *tmp = new CCircle[floor(size_ * 1.)];
+        CCircle *tmp = new CCircle[int(floor(size_ * 1.))];
         for (int i = 0; i < size_; ++i)
             tmp[i] = arr_[i];
         delete[] arr_;
@@ -196,13 +196,16 @@ void CCircleSystem::CirclesMerge(int first, int last, int middle) {
     for (int k = 0; k < middle - first; k++)
         left[k] = arr_[first + k - 1];
 
+    std::printf("Hello");
+
     CCircle right[last - middle + 1];
     for (int k = 0; k < last - middle + 1; k++)
         right[k] = arr_[middle + k - 1];
 
     int i = 0, j = 0, k = first;
-    while (i < middle - first && j < last - middle + 1)
-        arr_[k++ - 1] = left[i] <= right[j] ? left[i++] : right[j++];
-    while (k <= last)
-        arr_[k++ - 1] = i >= middle - first ? right[j++] : left[i++];
+    // тут чет не ок
+//    while (i < middle - first && j < last - middle + 1)
+//        arr_[k++ - 1] = left[i] <= right[j] ? left[i++] : right[j++];
+//    while (k <= last)
+//        arr_[k++ - 1] = i >= middle - first ? right[j++] : left[i++];
 }

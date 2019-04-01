@@ -4,6 +4,7 @@
 #include <string>
 #include <cmath>
 #include <iostream>
+#include <fstream>
 
 class IGeoFig {
 public:
