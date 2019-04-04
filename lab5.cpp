@@ -204,8 +204,8 @@ void CCircleSystem::CirclesMerge(int first, int last, int middle) {
 
     int i = 0, j = 0, k = first;
     // тут чет не ок
-//    while (i < middle - first && j < last - middle + 1)
-//        arr_[k++ - 1] = left[i] <= right[j] ? left[i++] : right[j++];
-//    while (k <= last)
-//        arr_[k++ - 1] = i >= middle - first ? right[j++] : left[i++];
+    while (i < middle - first && j < last - middle + 1)
+        arr_[k++ - 1] = left[i] <= right[j] ? left[i++] : right[j++];
+    while (k <= last)
+        arr_[k++ - 1] = i >= middle - first ? right[j++] : left[i++];
 }

@@ -67,7 +67,7 @@ public:
     virtual size_t Size() const = 0;
 };
 
-class CCircle : IBaseCObject, IGeoFig, IPrintable, IDialogInitiable, IPhysObject {
+class CCircle : public IBaseCObject, public IGeoFig, public IPrintable, public IDialogInitiable, public IPhysObject {
 public:
     explicit CCircle(double rad = 0.0, CVector2D const &centre = {0.0, 0.0}, double mass = 0);
 

@@ -18,6 +18,6 @@ CMakeFiles/ProgTasksCPP.dir/lab5.cpp.obj: ../lab5.h
 
 CMakeFiles/ProgTasksCPP.dir/lab6.cpp.obj: ../lab6.cpp
 
-CMakeFiles/ProgTasksCPP.dir/main.cpp.obj: ../lab6.h
+CMakeFiles/ProgTasksCPP.dir/main.cpp.obj: ../lab5.h
 CMakeFiles/ProgTasksCPP.dir/main.cpp.obj: ../main.cpp
 
