@@ -69,7 +69,7 @@ public:
 
 class CCircle : public IBaseCObject, public IGeoFig, public IPrintable, public IDialogInitiable, public IPhysObject {
 public:
-    explicit CCircle(double rad = 0.0, CVector2D const &centre = {0.0, 0.0}, double mass = 0);
+    explicit CCircle(double rad = 0.0, CVector2D const &centre = {0.0, 0.0}, double mass = 0, std::string const &name = "Circle");
 
     size_t Size() const override;
 
@@ -82,6 +82,8 @@ public:
     void SetRad(double rad);
 
     double Mass() const override;
+
+    double Radius() const;
 
     void SetMass(double val) override;
 
@@ -126,9 +128,13 @@ public:
             head_(0),
             arr_(new CCircle[10]) {}
 
-    void AddCircle(double rad, CVector2D const &centre, double mass = 0);
+    void AddCircle(double rad= 0.0, CVector2D const &centre = {0, 0}, double mass = 0, std::string const &name = "Circle");
+
+    void AddCircle(CCircle const &circle);
 
     void ShowCircles();
+
+    void Draw();
 
     double CiclesTotalSquare();
 
@@ -136,16 +142,21 @@ public:
 
     double CirclesTotalMass();
 
+    double CirclesTotalRadius();
+
     CVector2D CirclesMassCentre();
 
     size_t CircleTotalSize();
 
     void CirclesMassSort();
 
+    void CirclesMergeSort(int first , int last);
+
+    void ShowCirclesMasses();
+
+    void Edit();
+
 private:
-
-    void CirclesMergeSort(int first, int last);
-
     void CirclesMerge(int first, int last, int middle);
 
     size_t size_;
