@@ -5,11 +5,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Zver/CLionProjects/ProgTasksCPP/lab1.cpp" "C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir/lab1.cpp.obj"
+  "C:/Users/Zver/CLionProjects/ProgTasksCPP/lab10.cpp" "C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir/lab10.cpp.obj"
   "C:/Users/Zver/CLionProjects/ProgTasksCPP/lab2.cpp" "C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir/lab2.cpp.obj"
   "C:/Users/Zver/CLionProjects/ProgTasksCPP/lab3.cpp" "C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir/lab3.cpp.obj"
   "C:/Users/Zver/CLionProjects/ProgTasksCPP/lab4.cpp" "C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir/lab4.cpp.obj"
   "C:/Users/Zver/CLionProjects/ProgTasksCPP/lab5.cpp" "C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir/lab5.cpp.obj"
   "C:/Users/Zver/CLionProjects/ProgTasksCPP/lab6.cpp" "C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir/lab6.cpp.obj"
+  "C:/Users/Zver/CLionProjects/ProgTasksCPP/lab7.cpp" "C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir/lab7.cpp.obj"
+  "C:/Users/Zver/CLionProjects/ProgTasksCPP/lab8.cpp" "C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir/lab8.cpp.obj"
   "C:/Users/Zver/CLionProjects/ProgTasksCPP/main.cpp" "C:/Users/Zver/CLionProjects/ProgTasksCPP/cmake-build-debug/CMakeFiles/ProgTasksCPP.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

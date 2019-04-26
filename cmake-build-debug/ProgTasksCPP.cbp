@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/Zver/CLionProjects/ProgTasksCPP/lab1.h">
 			<Option target="ProgTasksCPP"/>
 		</Unit>
+		<Unit filename="C:/Users/Zver/CLionProjects/ProgTasksCPP/lab10.cpp">
+			<Option target="ProgTasksCPP"/>
+		</Unit>
+		<Unit filename="C:/Users/Zver/CLionProjects/ProgTasksCPP/lab10.h">
+			<Option target="ProgTasksCPP"/>
+		</Unit>
 		<Unit filename="C:/Users/Zver/CLionProjects/ProgTasksCPP/lab2.cpp">
 			<Option target="ProgTasksCPP"/>
 		</Unit>
@@ -116,6 +122,18 @@
 			<Option target="ProgTasksCPP"/>
 		</Unit>
 		<Unit filename="C:/Users/Zver/CLionProjects/ProgTasksCPP/lab6.h">
+			<Option target="ProgTasksCPP"/>
+		</Unit>
+		<Unit filename="C:/Users/Zver/CLionProjects/ProgTasksCPP/lab7.cpp">
+			<Option target="ProgTasksCPP"/>
+		</Unit>
+		<Unit filename="C:/Users/Zver/CLionProjects/ProgTasksCPP/lab7.h">
+			<Option target="ProgTasksCPP"/>
+		</Unit>
+		<Unit filename="C:/Users/Zver/CLionProjects/ProgTasksCPP/lab8.cpp">
+			<Option target="ProgTasksCPP"/>
+		</Unit>
+		<Unit filename="C:/Users/Zver/CLionProjects/ProgTasksCPP/lab8.h">
 			<Option target="ProgTasksCPP"/>
 		</Unit>
 		<Unit filename="C:/Users/Zver/CLionProjects/ProgTasksCPP/main.cpp">

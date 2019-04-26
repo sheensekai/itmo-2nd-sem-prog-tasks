@@ -147,6 +147,45 @@ CMakeFiles/ProgTasksCPP.dir/lab6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgTasksCPP.dir/lab6.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Zver\CLionProjects\ProgTasksCPP\lab6.cpp -o CMakeFiles\ProgTasksCPP.dir\lab6.cpp.s
 
+CMakeFiles/ProgTasksCPP.dir/lab7.cpp.obj: CMakeFiles/ProgTasksCPP.dir/flags.make
+CMakeFiles/ProgTasksCPP.dir/lab7.cpp.obj: ../lab7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Zver\CLionProjects\ProgTasksCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ProgTasksCPP.dir/lab7.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProgTasksCPP.dir\lab7.cpp.obj -c C:\Users\Zver\CLionProjects\ProgTasksCPP\lab7.cpp
+
+CMakeFiles/ProgTasksCPP.dir/lab7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgTasksCPP.dir/lab7.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Zver\CLionProjects\ProgTasksCPP\lab7.cpp > CMakeFiles\ProgTasksCPP.dir\lab7.cpp.i
+
+CMakeFiles/ProgTasksCPP.dir/lab7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgTasksCPP.dir/lab7.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Zver\CLionProjects\ProgTasksCPP\lab7.cpp -o CMakeFiles\ProgTasksCPP.dir\lab7.cpp.s
+
+CMakeFiles/ProgTasksCPP.dir/lab8.cpp.obj: CMakeFiles/ProgTasksCPP.dir/flags.make
+CMakeFiles/ProgTasksCPP.dir/lab8.cpp.obj: ../lab8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Zver\CLionProjects\ProgTasksCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ProgTasksCPP.dir/lab8.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProgTasksCPP.dir\lab8.cpp.obj -c C:\Users\Zver\CLionProjects\ProgTasksCPP\lab8.cpp
+
+CMakeFiles/ProgTasksCPP.dir/lab8.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgTasksCPP.dir/lab8.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Zver\CLionProjects\ProgTasksCPP\lab8.cpp > CMakeFiles\ProgTasksCPP.dir\lab8.cpp.i
+
+CMakeFiles/ProgTasksCPP.dir/lab8.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgTasksCPP.dir/lab8.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Zver\CLionProjects\ProgTasksCPP\lab8.cpp -o CMakeFiles\ProgTasksCPP.dir\lab8.cpp.s
+
+CMakeFiles/ProgTasksCPP.dir/lab10.cpp.obj: CMakeFiles/ProgTasksCPP.dir/flags.make
+CMakeFiles/ProgTasksCPP.dir/lab10.cpp.obj: ../lab10.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Zver\CLionProjects\ProgTasksCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ProgTasksCPP.dir/lab10.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProgTasksCPP.dir\lab10.cpp.obj -c C:\Users\Zver\CLionProjects\ProgTasksCPP\lab10.cpp
+
+CMakeFiles/ProgTasksCPP.dir/lab10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProgTasksCPP.dir/lab10.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Zver\CLionProjects\ProgTasksCPP\lab10.cpp > CMakeFiles\ProgTasksCPP.dir\lab10.cpp.i
+
+CMakeFiles/ProgTasksCPP.dir/lab10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProgTasksCPP.dir/lab10.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Zver\CLionProjects\ProgTasksCPP\lab10.cpp -o CMakeFiles\ProgTasksCPP.dir\lab10.cpp.s
+
 # Object files for target ProgTasksCPP
 ProgTasksCPP_OBJECTS = \
 "CMakeFiles/ProgTasksCPP.dir/main.cpp.obj" \
@@ -155,7 +194,10 @@ ProgTasksCPP_OBJECTS = \
 "CMakeFiles/ProgTasksCPP.dir/lab3.cpp.obj" \
 "CMakeFiles/ProgTasksCPP.dir/lab4.cpp.obj" \
 "CMakeFiles/ProgTasksCPP.dir/lab5.cpp.obj" \
-"CMakeFiles/ProgTasksCPP.dir/lab6.cpp.obj"
+"CMakeFiles/ProgTasksCPP.dir/lab6.cpp.obj" \
+"CMakeFiles/ProgTasksCPP.dir/lab7.cpp.obj" \
+"CMakeFiles/ProgTasksCPP.dir/lab8.cpp.obj" \
+"CMakeFiles/ProgTasksCPP.dir/lab10.cpp.obj"
 
 # External object files for target ProgTasksCPP
 ProgTasksCPP_EXTERNAL_OBJECTS =
@@ -167,11 +209,14 @@ ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/lab3.cpp.obj
 ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/lab4.cpp.obj
 ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/lab5.cpp.obj
 ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/lab6.cpp.obj
+ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/lab7.cpp.obj
+ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/lab8.cpp.obj
+ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/lab10.cpp.obj
 ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/build.make
 ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/linklibs.rsp
 ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/objects1.rsp
 ProgTasksCPP.exe: CMakeFiles/ProgTasksCPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Zver\CLionProjects\ProgTasksCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ProgTasksCPP.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Zver\CLionProjects\ProgTasksCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ProgTasksCPP.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ProgTasksCPP.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

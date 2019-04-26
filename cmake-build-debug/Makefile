@@ -149,6 +149,33 @@ lab1.cpp.s:
 	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab1.cpp.s
 .PHONY : lab1.cpp.s
 
+lab10.obj: lab10.cpp.obj
+
+.PHONY : lab10.obj
+
+# target to build an object file
+lab10.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab10.cpp.obj
+.PHONY : lab10.cpp.obj
+
+lab10.i: lab10.cpp.i
+
+.PHONY : lab10.i
+
+# target to preprocess a source file
+lab10.cpp.i:
+	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab10.cpp.i
+.PHONY : lab10.cpp.i
+
+lab10.s: lab10.cpp.s
+
+.PHONY : lab10.s
+
+# target to generate assembly for a file
+lab10.cpp.s:
+	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab10.cpp.s
+.PHONY : lab10.cpp.s
+
 lab2.obj: lab2.cpp.obj
 
 .PHONY : lab2.obj
@@ -284,6 +311,60 @@ lab6.cpp.s:
 	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab6.cpp.s
 .PHONY : lab6.cpp.s
 
+lab7.obj: lab7.cpp.obj
+
+.PHONY : lab7.obj
+
+# target to build an object file
+lab7.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab7.cpp.obj
+.PHONY : lab7.cpp.obj
+
+lab7.i: lab7.cpp.i
+
+.PHONY : lab7.i
+
+# target to preprocess a source file
+lab7.cpp.i:
+	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab7.cpp.i
+.PHONY : lab7.cpp.i
+
+lab7.s: lab7.cpp.s
+
+.PHONY : lab7.s
+
+# target to generate assembly for a file
+lab7.cpp.s:
+	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab7.cpp.s
+.PHONY : lab7.cpp.s
+
+lab8.obj: lab8.cpp.obj
+
+.PHONY : lab8.obj
+
+# target to build an object file
+lab8.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab8.cpp.obj
+.PHONY : lab8.cpp.obj
+
+lab8.i: lab8.cpp.i
+
+.PHONY : lab8.i
+
+# target to preprocess a source file
+lab8.cpp.i:
+	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab8.cpp.i
+.PHONY : lab8.cpp.i
+
+lab8.s: lab8.cpp.s
+
+.PHONY : lab8.s
+
+# target to generate assembly for a file
+lab8.cpp.s:
+	$(MAKE) -f CMakeFiles\ProgTasksCPP.dir\build.make CMakeFiles/ProgTasksCPP.dir/lab8.cpp.s
+.PHONY : lab8.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -323,6 +404,9 @@ help:
 	@echo ... lab1.obj
 	@echo ... lab1.i
 	@echo ... lab1.s
+	@echo ... lab10.obj
+	@echo ... lab10.i
+	@echo ... lab10.s
 	@echo ... lab2.obj
 	@echo ... lab2.i
 	@echo ... lab2.s
@@ -338,6 +422,12 @@ help:
 	@echo ... lab6.obj
 	@echo ... lab6.i
 	@echo ... lab6.s
+	@echo ... lab7.obj
+	@echo ... lab7.i
+	@echo ... lab7.s
+	@echo ... lab8.obj
+	@echo ... lab8.i
+	@echo ... lab8.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
